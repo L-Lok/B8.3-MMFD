@@ -13,8 +13,8 @@ class PDENeuralNetwork:
         self,
         domain=None,
         network=NeuralNetwork,
-        interior_point_count=1024,
-        boundary_point_count=1024,
+        interior_point_count=512,
+        boundary_point_count=512,
         ratio_domains=True,
     ):
         self.loss_weight = tf.placeholder(tf.float64, name="lossWeight")
