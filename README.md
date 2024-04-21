@@ -17,10 +17,10 @@ This project utilized the unsupervised deep learning approach to price European 
 *    Specific PDEs and associated loss functions are then constructed, given `NeuralNetwork.py` and `PDE.py` -- `European_options.py`, `American_options.py`, and `Two_underlying_asset.py`.
 For the other scripts,
 *    The models are saved by `model_saver.py`, where the interior and boundary training and validation losses per iteration are tracked.
-*    `graphing.py` contains the functions for graphing the 2D and 3D model results.
-*     `Others.py` contains the functions that generate option models such as EuroSt and AmericanStSig and information for plots.
-*     `add.py` plot the model performance, $L_2$ and $L_{\infty}$ errors, given different numbers of layers.
-*     `setup.conf` is the configuration file that contains the model training and graphing parameters.
+*    The script `graphing.py` contains the functions for graphing the 2D and 3D model results.
+*    The script `Others.py` contains the functions that generate option models such as EuroSt and AmericanStSig and information for plots.
+*    The script `add.py` plot the model performance, $L_2$ and $L_{\infty}$ errors, given different numbers of layers.
+*    The configuration file `setup.conf` contains the model training and graphing parameters.
 In this project, the optimisation algorithm used is L-BFGS. `external_optimizer.py` calls Scipy in the TensorFlow environment to perform optimisation.
 
 # How to Run
