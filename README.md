@@ -32,6 +32,6 @@ The example results are in the `American`, `European`, and `ExchangeOption` fold
 # References
 [1] van der Meer, R., Oosterlee, C., & Borovykh, A. (2020). Optimally weighted loss functions for solving pdes with neural networks. arXiv preprint arXiv:2002.06269.
 https://github.com/remcovandermeer/Optimally-Weighted-PINNs
-[2] https://github.com/pooyasf/DGM/tree/main
-[3] Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations
+[2] Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations
 https://github.com/maziarraissi/PINNs
+[3] https://github.com/pooyasf/DGM/tree/main
