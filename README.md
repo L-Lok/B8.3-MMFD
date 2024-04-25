@@ -14,7 +14,7 @@ This repository contains the Oxford B8.3 Mathematical Models of Financial Deriva
 This project utilized the unsupervised deep learning approach to price European and American options in the Black-Scholes Model with up to two underlying assets. The code consists of three main parts:
 *    `NeuralNetwork.py` provides the foundational neural network elements, such as activation functions and structures.
 *    The general PDE setup based on the neural networks in `NeuralNetwork.py` can be found in `PDE.py`, where loss and validation variables are defined.
-*    Specific PDEs and associated loss functions are then constructed, given `NeuralNetwork.py` and `PDE.py` -- `European_options.py`, `American_options.py`, and `Two_underlying_asset.py`.
+*    Specific PDEs and associated loss functions are then constructed, given `NeuralNetwork.py` and `PDE.py` -- `European_options.py`, `American_options.py`, and `Two_underlying_asset.py`. \
 For the other scripts,
 *    The models are saved by `model_saver.py`, where the interior and boundary training and validation losses per iteration are tracked.
 *    The script `graphing.py` contains the functions for graphing the 2D and 3D model results.
